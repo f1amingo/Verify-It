@@ -1,7 +1,10 @@
-package com.flamingo;
+package com.flamingo.thread;
 
-public class Main {
-//    static volatile boolean running = true;
+/**
+ * 知识点：Java内存模型
+ */
+public class Visibility {
+    //    static volatile boolean running = true;
     static boolean running = true;
 
     public static void main(String[] args) throws InterruptedException {
