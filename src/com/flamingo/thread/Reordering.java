@@ -1,6 +1,12 @@
-package com.flamingo;
+package com.flamingo.thread;
 
-public class Main {
+/**
+ * The following code demonstrates Java instruction reordering.
+ * Run this for 1,000,000 times, we may see some unexpected results.
+ *
+ * @author https://stackoverflow.com/questions/52648800/how-to-demonstrate-java-instruction-reordering-problems
+ */
+public class Reordering {
 
     public static void main(String[] args) {
 
